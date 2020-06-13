@@ -5,9 +5,6 @@
 %               Dx = e
 %输入为c, A, b, D, e
 %输出为最优解x0，取最优解时的目标函数值optimal_result
-%该程序有两处不足在程序注释中有说明
-%@作者：周泽宇 @学号：18221031 
-%@日期：2020/4/2
 function [x0,optimal_result]=MySimplex(c,A,b,D,e)
     %保证c是行向量，b是列向量
     if size(c,2)==1
