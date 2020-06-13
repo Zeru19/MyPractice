@@ -2,7 +2,6 @@
 %输出：precedessors 每个结点的前点，distance 起始点到每个结点的最短距离，
 %       min_path 起始点到每个结点的最短路径;
 %输入：graph 图的带权邻接矩阵，source 起始点，terminal 终点
-%@作者：周泽宇  @学号：18221031
 function [precedessors,distance,min_path]=kdijkstra(graph,source,terminal)
     m=size(graph,2);
     unsolved = 1:m;
